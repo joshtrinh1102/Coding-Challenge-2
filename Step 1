@@ -11,7 +11,20 @@
                 console.log(calcTip(100))
             
                 
-             
+                const bills=[125,555,44]
+                let bill1= calcTip(bills[0])
+                let bill2=calcTip(bills[1])
+                let bill3=calcTip(bills[2])
+                console.log(bills)
+                const tips=[bill1,bill2,bill3]
+                console.log(tips)
+                let total1=bills[0]+tips[0]
+                let total2=bills[1]+tips[1]
+                let total3= bills[2]+tips[2]
+                const totals=[total1,total2, total3]
+                
+                console.log(totals) 
+
 
         </script>
     </body>
