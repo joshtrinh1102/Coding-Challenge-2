@@ -1,8 +1,9 @@
 <html>
     <body>
         <script>
-                
-                let tip= (bill >=50 && bill <=300) ? "15%":"20%";
+                let bill
+                let tippercent= (bill >=50 && bill <=300) ? "15%":"20%";
+                let tip= bill* tippercent
                 
         </script>
     </body>
