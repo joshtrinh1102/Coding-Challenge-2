@@ -1,1 +1,1 @@
-# Coding-Challenge-2
+Steven's Tip Calculator Challenge
